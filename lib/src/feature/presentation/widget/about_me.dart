@@ -25,7 +25,6 @@ class AboutMe extends StatelessWidget {
             SizedBox(height: 16),
             SizedBox(
               width: 600,
-              height: 600,
               child: Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
