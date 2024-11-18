@@ -33,7 +33,7 @@ class ExploreApp extends StatelessWidget {
         GestureDetector(
           onTap: _launchFlutterAi,
           child: Container(
-            width: 200,
+            width: 160,
             padding: const EdgeInsets.all(8.0),
             decoration: BoxDecoration(
               color: PortfolioColor.bgLight2,

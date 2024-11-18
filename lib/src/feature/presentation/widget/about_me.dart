@@ -11,10 +11,10 @@ class AboutMe extends StatelessWidget {
       child: Container(
         width: double.maxFinite,
         color: PortfolioColor.bgLight1,
-        child: const Column(
+        child:  Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(
+            const Text(
               "About Me",
               style: TextStyle(
                 fontSize: 24,
@@ -22,10 +22,10 @@ class AboutMe extends StatelessWidget {
                 color: PortfolioColor.whitePrimary,
               ),
             ),
-            SizedBox(height: 16),
+            const SizedBox(height: 16),
             SizedBox(
-              width: 500,
-              child: Padding(
+              width: MediaQuery.sizeOf(context).width,
+              child: const Padding(
                 padding: EdgeInsets.all(8.0),
                 child: Text(
                   "I am a dedicated  Flutter developer with hands-on experience in a German Flutter agency. "
