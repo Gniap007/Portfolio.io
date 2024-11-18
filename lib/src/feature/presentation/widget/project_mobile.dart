@@ -5,7 +5,7 @@ import 'package:my_portfolio_project/src/ultis/color.dart';
 class ProjectMobile extends StatelessWidget {
   final List<ProjectModel> projects;
 
-  const ProjectMobile({Key? key, required this.projects}) : super(key: key);
+  const ProjectMobile({super.key, required this.projects});
 
   @override
   Widget build(BuildContext context) {
