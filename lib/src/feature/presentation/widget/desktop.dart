@@ -22,7 +22,7 @@ class Desktop extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Text(
+               Text(
                 "Hi!\nI'm Swam Htet Paing\nA Flutter Developer",
                 style:
                     TextStyle(color: PortfolioColor.whitePrimary, fontSize: 20),

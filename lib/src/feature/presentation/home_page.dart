@@ -16,7 +16,7 @@ import 'package:my_portfolio_project/src/feature/presentation/widget/skill_platf
 import 'package:my_portfolio_project/src/ultis/color.dart';
 
 class HomePage extends StatefulWidget {
-  HomePage({super.key});
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         const Text(
                           "Platforms and Skills",
-                          style: const TextStyle(
+                          style: TextStyle(
                               fontSize: 24,
                               fontWeight: FontWeight.w400,
                               color: PortfolioColor.whitePrimary),
