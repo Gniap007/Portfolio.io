@@ -120,7 +120,7 @@ class _HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
-              const ExploreApp(),
+              //const ExploreApp(),
               AboutMe(
                 key: navbarkeys[3],
               ),
